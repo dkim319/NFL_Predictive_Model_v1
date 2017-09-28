@@ -1,0 +1,13 @@
+,best params,ml_model,testing_acc,training_acc
+0,,log_reg,0.473913043478,0.567842605156
+1,"{'penalty': 'l1', 'random_state': 319}",log_reg_tuned,0.504347826087,0.619402985075
+2,,d_tree,0.5,1.0
+3,"{'max_features': 'auto', 'random_state': 319, 'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 4}",d_tree_tuned,0.491304347826,0.689280868385
+4,,rf_tree,0.54347826087,0.983039348711
+5,"{'bootstrap': False, 'min_samples_leaf': 4, 'n_estimators': 50, 'random_state': 319, 'max_features': 'auto', 'max_depth': 3}",rf_tree_tuned,0.54347826087,0.983039348711
+6,,adaboost,0.534782608696,0.675712347354
+7,"{'n_estimators': 10, 'learning_rate': 0.01, 'random_state': 319}",ababoost_tuned,0.526086956522,0.553595658073
+8,,xg_boost,0.491304347826,0.883989145183
+9,"{'n_jobs': 4, 'learning_rate': 0.0001, 'min_child_weight': 1, 'n_estimators': 100, 'random_state': 319, 'max_depth': 6}",xg_boost_tuned,0.55652173913,0.645861601085
+10,,xg_boost_tuned2,0.560869565217,0.646540027137
+11,,xg_boost_tuned_features_selected,0.582608695652,0.665535956581
